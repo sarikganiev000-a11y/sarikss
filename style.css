@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+    width: 100%;
+    background-color: black;
+
+}
+.nav{
+    display: flex;
+    gap: 190px;
+}
+.nav ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    width: 1600px;
+    height: 594px;
+    background-image: url(Rectangle\ 2.png);
+    background-size: cover;
+    align-items: center;
+}
+
+.box {
+  width: 237px;
+  height: 209px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+.relative {
+  background: limegreen;
+  position: relative;
+}
+
+.absolute {
+  background: red;
+  position: absolute;
+  top: -95px;
+  left: 100px;
+  z-index: 1;
+}
+
+.round {
+  border-radius: 100px;
+  top: -95px;
+  left: -100px;
+  width: 411px;
+}
+
+.top {
+  top: -95px;
+  left: -100px;
+}
+.kotta{
+    display: flex;
+    background-color: black;
+    padding: 231px 0;
+}
+.kotta div{
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+    align-items: center;
+    align-content: center;
+}
+.kotta div h1{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+.kotta div img{
+    margin: 100px 0;
+}
+.kotta div p{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 100px 0;
+}
+.section2{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+}
+.footer{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+    width: 100%;
+    background-color: black;
+}
+.nav2{
+    gap: 620px;
+    display: flex;
+}
+.nav2 ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
